@@ -1,0 +1,171 @@
+{
+  "generated_at": "2026-10-30T13:29:58Z",
+  "dating": "updatedAt (approximation, Europe/Paris day)",
+  "totals": {
+    "houses": 384,
+    "last_24h": 50,
+    "last_7d": 241,
+    "cities": 66,
+    "welcome": 286,
+    "do_not_disturb": 98
+  },
+  "recap": {
+    "welcoming": 286,
+    "quiet": 98,
+    "towns": 66,
+    "decorated": 126,
+    "scary": 23
+  },
+  "daily": [
+    {
+      "date": "2026-10-01",
+      "added": 2,
+      "total": 2
+    },
+    {
+      "date": "2026-10-02",
+      "added": 0,
+      "total": 2
+    },
+    {
+      "date": "2026-10-03",
+      "added": 0,
+      "total": 2
+    },
+    {
+      "date": "2026-10-04",
+      "added": 0,
+      "total": 2
+    },
+    {
+      "date": "2026-10-05",
+      "added": 0,
+      "total": 2
+    },
+    {
+      "date": "2026-10-06",
+      "added": 0,
+      "total": 2
+    },
+    {
+      "date": "2026-10-07",
+      "added": 0,
+      "total": 2
+    },
+    {
+      "date": "2026-10-08",
+      "added": 1,
+      "total": 3
+    },
+    {
+      "date": "2026-10-09",
+      "added": 1,
+      "total": 4
+    },
+    {
+      "date": "2026-10-10",
+      "added": 1,
+      "total": 5
+    },
+    {
+      "date": "2026-10-11",
+      "added": 0,
+      "total": 5
+    },
+    {
+      "date": "2026-10-12",
+      "added": 0,
+      "total": 5
+    },
+    {
+      "date": "2026-10-13",
+      "added": 0,
+      "total": 5
+    },
+    {
+      "date": "2026-10-14",
+      "added": 1,
+      "total": 6
+    },
+    {
+      "date": "2026-10-15",
+      "added": 0,
+      "total": 6
+    },
+    {
+      "date": "2026-10-16",
+      "added": 3,
+      "total": 9
+    },
+    {
+      "date": "2026-10-17",
+      "added": 1,
+      "total": 10
+    },
+    {
+      "date": "2026-10-18",
+      "added": 1,
+      "total": 11
+    },
+    {
+      "date": "2026-10-19",
+      "added": 1,
+      "total": 12
+    },
+    {
+      "date": "2026-10-20",
+      "added": 36,
+      "total": 48
+    },
+    {
+      "date": "2026-10-21",
+      "added": 63,
+      "total": 111
+    },
+    {
+      "date": "2026-10-22",
+      "added": 29,
+      "total": 140
+    },
+    {
+      "date": "2026-10-23",
+      "added": 5,
+      "total": 145
+    },
+    {
+      "date": "2026-10-24",
+      "added": 20,
+      "total": 165
+    },
+    {
+      "date": "2026-10-25",
+      "added": 55,
+      "total": 220
+    },
+    {
+      "date": "2026-10-26",
+      "added": 20,
+      "total": 240
+    },
+    {
+      "date": "2026-10-27",
+      "added": 34,
+      "total": 274
+    },
+    {
+      "date": "2026-10-28",
+      "added": 46,
+      "total": 320
+    },
+    {
+      "date": "2026-10-29",
+      "added": 34,
+      "total": 354
+    },
+    {
+      "date": "2026-10-30",
+      "added": 30,
+      "total": 384
+    }
+  ]
+}

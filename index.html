@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>Ici-Trouille — Évolution</title>
+  <style>
+    :root { --bg:#1c1a24; --txt:#f2f0f5; --muted:#a6a2b3; --line:#f0841f; --fill:rgba(240,132,31,.18); --bar:#c9521b; --btn:#2c2836; --border:#4a4658; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--txt); font:15px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+    main { max-width:820px; margin:0 auto; padding:20px 18px 40px; }
+    h1 { font:400 26px Georgia,"Times New Roman",serif; margin:0 0 18px; }
+    .figures { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:22px; }
+    .fig small { display:block; color:var(--muted); font-size:14px; margin-bottom:4px; }
+    .fig b { font-size:26px; font-weight:700; }
+    h2 { font-weight:400; color:var(--muted); font-size:14px; margin:18px 0 6px; }
+    svg { width:100%; height:auto; display:block; overflow:visible; }
+    .nav { display:flex; align-items:center; justify-content:space-between; margin-top:14px; gap:10px; }
+    .nav button { background:var(--btn); color:var(--txt); border:1px solid var(--border); border-radius:8px; padding:8px 12px; font:inherit; cursor:pointer; }
+    .nav button:disabled { opacity:.4; cursor:default; }
+    .range { color:var(--muted); font-size:14px; }
+    .foot { margin-top:26px; color:var(--muted); font-size:12px; }
+    .err { color:#f88; }
+    @media (max-width:560px) { .figures { grid-template-columns:repeat(2,1fr); } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Évolution</h1>
+  <section class="figures">
+    <div class="fig"><small>Maisons</small><b id="f-total">–</b></div>
+    <div class="fig"><small>Dernières 24 h</small><b id="f-24h">–</b></div>
+    <div class="fig"><small>7 derniers jours</small><b id="f-7d">–</b></div>
+    <div class="fig"><small>Villes</small><b id="f-cities">–</b></div>
+  </section>
+
+  <h2>Maisons sur Ici-Trouille, jour par jour</h2>
+  <svg id="line" viewBox="0 0 800 170" preserveAspectRatio="none" role="img" aria-label="Maisons cumulées"></svg>
+
+  <h2>Nouvelles maisons par jour</h2>
+  <svg id="bars" viewBox="0 0 800 110" role="img" aria-label="Nouvelles maisons par jour"></svg>
+
+  <div class="nav">
+    <button id="prev">← Avant</button>
+    <span class="range" id="range"></span>
+    <button id="next">Après →</button>
+  </div>
+
+  <p class="foot" id="foot">Chargement des données…</p>
+</main>
+
+<script>
+const WINDOW = 14;
+let daily = [];
+let end = 0;            // index of last visible day
+const fmtDay = new Intl.DateTimeFormat("fr-FR", { day: "numeric", month: "short" });
+const $ = (id) => document.getElementById(id);
+const svgNS = "http://www.w3.org/2000/svg";
+
+function el(name, attrs, parent) {
+  const n = document.createElementNS(svgNS, name);
+  for (const k in attrs) n.setAttribute(k, attrs[k]);
+  if (parent) parent.appendChild(n);
+  return n;
+}
+
+function drawLine(slice) {
+  const svg = $("line");
+  svg.innerHTML = "";
+  const W = 800, H = 170, padX = 20, top = 22, bottom = 6;
+  const max = Math.max(1, ...slice.map(d => d.total));
+  const x = (i) => padX + i * (W - 2 * padX) / Math.max(1, slice.length - 1);
+  const y = (v) => H - bottom - (v / max) * (H - top - bottom);
+  const pts = slice.map((d, i) => [x(i), y(d.total)]);
+  const path = pts.map((p, i) => (i ? "L" : "M") + p[0] + " " + p[1]).join(" ");
+  el("path", { d: path + ` L${x(slice.length - 1)} ${H} L${x(0)} ${H} Z`, fill: "var(--fill)" }, svg);
+  el("path", { d: path, fill: "none", stroke: "var(--line)", "stroke-width": 2 }, svg);
+  slice.forEach((d, i) => {
+    el("circle", { cx: pts[i][0], cy: pts[i][1], r: 3, fill: "var(--line)" }, svg);
+    const t = el("text", { x: pts[i][0], y: pts[i][1] - 8, "text-anchor": "middle", fill: "var(--txt)", "font-size": 13 }, svg);
+    t.textContent = d.total;
+  });
+}
+
+function drawBars(slice) {
+  const svg = $("bars");
+  svg.innerHTML = "";
+  const W = 800, H = 110, padX = 20, labelH = 22, topPad = 18;
+  const max = Math.max(1, ...slice.map(d => d.added));
+  const slot = (W - 2 * padX) / slice.length;
+  const bw = slot * 0.6;
+  slice.forEach((d, i) => {
+    const h = (d.added / max) * (H - labelH - topPad);
+    const cx = padX + slot * i + slot / 2;
+    el("rect", { x: cx - bw / 2, y: H - labelH - h, width: bw, height: Math.max(h, 1), fill: "var(--bar)", rx: 2 }, svg);
+    const t = el("text", { x: cx, y: H - labelH - h - 4, "text-anchor": "middle", fill: "var(--txt)", "font-size": 13 }, svg);
+    t.textContent = d.added;
+  });
+}
+
+function render() {
+  const start = Math.max(0, end - WINDOW + 1);
+  const slice = daily.slice(start, end + 1);
+  drawLine(slice);
+  drawBars(slice);
+  const a = new Date(slice[0].date + "T12:00:00"), b = new Date(slice[slice.length - 1].date + "T12:00:00");
+  $("range").textContent = `${fmtDay.format(a)} – ${fmtDay.format(b)}`;
+  $("prev").disabled = start === 0;
+  $("next").disabled = end >= daily.length - 1;
+}
+
+$("prev").onclick = () => { end = Math.max(WINDOW - 1, end - WINDOW); render(); };
+$("next").onclick = () => { end = Math.min(daily.length - 1, end + WINDOW); render(); };
+
+fetch("data.json", { cache: "no-store" })
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(data => {
+    daily = data.daily;
+    end = daily.length - 1;
+    $("f-total").textContent = data.totals.houses;
+    $("f-24h").textContent = "+" + data.totals.last_24h;
+    $("f-7d").textContent = "+" + data.totals.last_7d;
+    $("f-cities").textContent = data.totals.cities;
+    $("foot").textContent =
+      `Mis à jour : ${new Date(data.generated_at).toLocaleString("fr-FR")} · ` +
+      `Accueil : ${data.totals.welcome} · Ne pas déranger : ${data.totals.do_not_disturb}. ` +
+      `Datation approximative (date de dernière modification).`;
+    render();
+  })
+  .catch(() => {
+    $("foot").textContent = "Impossible de charger les données.";
+    $("foot").classList.add("err");
+  });
+</script>
+</body>
+</html>
