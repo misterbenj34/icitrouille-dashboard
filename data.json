@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-31T22:30:01Z",
+  "generated_at": "2026-10-31T23:00:02Z",
   "dating": "updatedAt (approximation, Europe/Paris day)",
   "totals": {
     "houses": 528,
-    "last_24h": 175,
+    "last_24h": 174,
     "last_7d": 382,
     "cities": 92,
     "welcome": 409,
@@ -677,6 +677,11 @@
     {
       "date": "2026-10-31",
       "added": 174,
+      "total": 528
+    },
+    {
+      "date": "2026-11-01",
+      "added": 0,
       "total": 528
     }
   ]
