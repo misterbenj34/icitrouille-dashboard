@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-31T21:30:01Z",
+  "generated_at": "2026-10-31T22:00:01Z",
   "dating": "updatedAt (approximation, Europe/Paris day)",
   "totals": {
-    "houses": 532,
-    "last_24h": 186,
-    "last_7d": 387,
-    "cities": 93,
-    "welcome": 413,
+    "houses": 530,
+    "last_24h": 180,
+    "last_7d": 385,
+    "cities": 92,
+    "welcome": 411,
     "do_not_disturb": 119
   },
   "recap": {
@@ -676,8 +676,8 @@
     },
     {
       "date": "2026-10-31",
-      "added": 178,
-      "total": 532
+      "added": 176,
+      "total": 530
     }
   ]
 }
