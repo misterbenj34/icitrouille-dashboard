@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-31T13:30:01Z",
+  "generated_at": "2026-10-31T14:00:01Z",
   "dating": "updatedAt (approximation, Europe/Paris day)",
   "totals": {
-    "houses": 463,
-    "last_24h": 99,
-    "last_7d": 320,
-    "cities": 81,
-    "welcome": 358,
-    "do_not_disturb": 105
+    "houses": 467,
+    "last_24h": 101,
+    "last_7d": 323,
+    "cities": 85,
+    "welcome": 361,
+    "do_not_disturb": 106
   },
   "recap": {
-    "welcoming": 362,
-    "quiet": 106,
-    "towns": 82,
-    "decorated": 152,
-    "scary": 28,
+    "welcoming": 366,
+    "quiet": 107,
+    "towns": 86,
+    "decorated": 155,
+    "scary": 29,
     "cities": [
       {
         "city": "Saint-Sébastien-sur-Loire",
@@ -122,6 +122,11 @@
         "houses": 4
       },
       {
+        "city": "Les Brouzils",
+        "department": "85",
+        "houses": 4
+      },
+      {
         "city": "Rezé",
         "department": "44",
         "houses": 4
@@ -129,11 +134,6 @@
       {
         "city": "Basse-Goulaine",
         "department": "44",
-        "houses": 3
-      },
-      {
-        "city": "Les Brouzils",
-        "department": "85",
         "houses": 3
       },
       {
@@ -182,8 +182,18 @@
         "houses": 2
       },
       {
+        "city": "Amiens",
+        "department": "80",
+        "houses": 1
+      },
+      {
         "city": "Asnières-sur-Seine",
         "department": "92",
+        "houses": 1
+      },
+      {
+        "city": "Beaurepaire",
+        "department": "85",
         "houses": 1
       },
       {
@@ -297,6 +307,11 @@
         "houses": 1
       },
       {
+        "city": "Orléans",
+        "department": "45",
+        "houses": 1
+      },
+      {
         "city": "Orvault",
         "department": "44",
         "houses": 1
@@ -403,6 +418,11 @@
       },
       {
         "city": "Treize-Septiers",
+        "department": "85",
+        "houses": 1
+      },
+      {
+        "city": "Treize-Vents",
         "department": "85",
         "houses": 1
       },
@@ -581,8 +601,8 @@
     },
     {
       "date": "2026-10-31",
-      "added": 64,
-      "total": 463
+      "added": 68,
+      "total": 467
     }
   ]
 }
