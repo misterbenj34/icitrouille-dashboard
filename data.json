@@ -1,40 +1,45 @@
 {
-  "generated_at": "2026-10-31T17:30:01Z",
+  "generated_at": "2026-10-31T18:00:01Z",
   "dating": "updatedAt (approximation, Europe/Paris day)",
   "totals": {
-    "houses": 520,
-    "last_24h": 170,
-    "last_7d": 385,
-    "cities": 93,
-    "welcome": 405,
-    "do_not_disturb": 115
+    "houses": 532,
+    "last_24h": 188,
+    "last_7d": 396,
+    "cities": 94,
+    "welcome": 414,
+    "do_not_disturb": 118
   },
   "recap": {
-    "welcoming": 413,
-    "quiet": 120,
-    "towns": 97,
-    "decorated": 185,
-    "scary": 34,
+    "welcoming": 425,
+    "quiet": 125,
+    "towns": 100,
+    "decorated": 189,
+    "scary": 35,
     "cities": [
       {
         "city": "Saint-Sébastien-sur-Loire",
         "department": "44",
-        "houses": 53
+        "houses": 54
       },
       {
         "city": "Vertou",
         "department": "44",
-        "houses": 51
+        "houses": 54
       },
       {
         "city": "Le Cellier",
         "department": "44",
-        "houses": 42
+        "houses": 44
       },
       {
         "city": "Fay-de-Bretagne",
         "department": "44",
-        "houses": 40
+        "houses": 41
+      },
+      {
+        "city": "Montaigu-Vendée",
+        "department": "85",
+        "houses": 29
       },
       {
         "city": "Saint-Herblain",
@@ -52,11 +57,6 @@
         "houses": 27
       },
       {
-        "city": "Montaigu-Vendée",
-        "department": "85",
-        "houses": 27
-      },
-      {
         "city": "La Haie-Fouassière",
         "department": "44",
         "houses": 26
@@ -69,7 +69,7 @@
       {
         "city": "Chaville",
         "department": "92",
-        "houses": 16
+        "houses": 17
       },
       {
         "city": "Chantonnay",
@@ -89,7 +89,12 @@
       {
         "city": "Bouaye",
         "department": "44",
-        "houses": 6
+        "houses": 7
+      },
+      {
+        "city": "Nantes",
+        "department": "44",
+        "houses": 7
       },
       {
         "city": "Bois-de-Céné",
@@ -109,11 +114,6 @@
       {
         "city": "Mauges-sur-Loire",
         "department": "49",
-        "houses": 5
-      },
-      {
-        "city": "Nantes",
-        "department": "44",
         "houses": 5
       },
       {
@@ -139,6 +139,11 @@
       {
         "city": "Cholet",
         "department": "49",
+        "houses": 3
+      },
+      {
+        "city": "Saint-Mars-du-Désert",
+        "department": "44",
         "houses": 3
       },
       {
@@ -183,11 +188,6 @@
       },
       {
         "city": "Rouans",
-        "department": "44",
-        "houses": 2
-      },
-      {
-        "city": "Saint-Mars-du-Désert",
         "department": "44",
         "houses": 2
       },
@@ -252,6 +252,11 @@
         "houses": 1
       },
       {
+        "city": "Enghien-les-Bains",
+        "department": "95",
+        "houses": 1
+      },
+      {
         "city": "Gétigné",
         "department": "44",
         "houses": 1
@@ -283,6 +288,11 @@
       },
       {
         "city": "Les Pineaux",
+        "department": "85",
+        "houses": 1
+      },
+      {
+        "city": "Les Sables-d'Olonne",
         "department": "85",
         "houses": 1
       },
@@ -423,6 +433,11 @@
       },
       {
         "city": "Saint-Philbert-de-Grand-Lieu",
+        "department": "44",
+        "houses": 1
+      },
+      {
+        "city": "Sainte-Luce-sur-Loire",
         "department": "44",
         "houses": 1
       },
@@ -621,43 +636,43 @@
     },
     {
       "date": "2026-10-24",
-      "added": 20,
-      "total": 147
+      "added": 19,
+      "total": 146
     },
     {
       "date": "2026-10-25",
-      "added": 52,
-      "total": 199
+      "added": 51,
+      "total": 197
     },
     {
       "date": "2026-10-26",
-      "added": 20,
-      "total": 219
+      "added": 19,
+      "total": 216
     },
     {
       "date": "2026-10-27",
       "added": 28,
-      "total": 247
+      "total": 244
     },
     {
       "date": "2026-10-28",
-      "added": 41,
-      "total": 288
+      "added": 40,
+      "total": 284
     },
     {
       "date": "2026-10-29",
       "added": 29,
-      "total": 317
+      "total": 313
     },
     {
       "date": "2026-10-30",
-      "added": 54,
-      "total": 371
+      "added": 51,
+      "total": 364
     },
     {
       "date": "2026-10-31",
-      "added": 149,
-      "total": 520
+      "added": 168,
+      "total": 532
     }
   ]
 }
