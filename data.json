@@ -1,20 +1,427 @@
 {
-  "generated_at": "2026-10-31T12:30:02Z",
+  "generated_at": "2026-10-31T13:00:01Z",
   "dating": "updatedAt (approximation, Europe/Paris day)",
   "totals": {
-    "houses": 450,
-    "last_24h": 87,
-    "last_7d": 308,
+    "houses": 457,
+    "last_24h": 94,
+    "last_7d": 314,
     "cities": 80,
-    "welcome": 347,
-    "do_not_disturb": 103
+    "welcome": 353,
+    "do_not_disturb": 104
   },
   "recap": {
-    "welcoming": 351,
-    "quiet": 104,
+    "welcoming": 357,
+    "quiet": 105,
     "towns": 81,
-    "decorated": 148,
-    "scary": 28
+    "decorated": 151,
+    "scary": 28,
+    "cities": [
+      {
+        "city": "Saint-Sébastien-sur-Loire",
+        "department": "44",
+        "houses": 49
+      },
+      {
+        "city": "Vertou",
+        "department": "44",
+        "houses": 46
+      },
+      {
+        "city": "Fay-de-Bretagne",
+        "department": "44",
+        "houses": 36
+      },
+      {
+        "city": "Le Cellier",
+        "department": "44",
+        "houses": 33
+      },
+      {
+        "city": "Saint-Herblain",
+        "department": "44",
+        "houses": 28
+      },
+      {
+        "city": "L'Herbergement",
+        "department": "85",
+        "houses": 27
+      },
+      {
+        "city": "Les Herbiers",
+        "department": "85",
+        "houses": 25
+      },
+      {
+        "city": "La Haie-Fouassière",
+        "department": "44",
+        "houses": 23
+      },
+      {
+        "city": "Montaigu-Vendée",
+        "department": "85",
+        "houses": 22
+      },
+      {
+        "city": "Saint-Jean-de-Boiseau",
+        "department": "44",
+        "houses": 17
+      },
+      {
+        "city": "Chantonnay",
+        "department": "85",
+        "houses": 14
+      },
+      {
+        "city": "Chaville",
+        "department": "92",
+        "houses": 12
+      },
+      {
+        "city": "La Montagne",
+        "department": "44",
+        "houses": 12
+      },
+      {
+        "city": "Verrières-le-Buisson",
+        "department": "91",
+        "houses": 8
+      },
+      {
+        "city": "Bouaye",
+        "department": "44",
+        "houses": 6
+      },
+      {
+        "city": "Bois-de-Céné",
+        "department": "85",
+        "houses": 5
+      },
+      {
+        "city": "Le Pellerin",
+        "department": "44",
+        "houses": 5
+      },
+      {
+        "city": "Mauges-sur-Loire",
+        "department": "49",
+        "houses": 5
+      },
+      {
+        "city": "Nantes",
+        "department": "44",
+        "houses": 5
+      },
+      {
+        "city": "Castelnaudary",
+        "department": "11",
+        "houses": 4
+      },
+      {
+        "city": "Châtenay-Malabry",
+        "department": "92",
+        "houses": 4
+      },
+      {
+        "city": "Rezé",
+        "department": "44",
+        "houses": 4
+      },
+      {
+        "city": "Basse-Goulaine",
+        "department": "44",
+        "houses": 3
+      },
+      {
+        "city": "Les Brouzils",
+        "department": "85",
+        "houses": 3
+      },
+      {
+        "city": "Chanverrie",
+        "department": "85",
+        "houses": 2
+      },
+      {
+        "city": "Chavagnes-en-Paillers",
+        "department": "85",
+        "houses": 2
+      },
+      {
+        "city": "La Boissière-de-Montaigu",
+        "department": "85",
+        "houses": 2
+      },
+      {
+        "city": "Le Bignon",
+        "department": "44",
+        "houses": 2
+      },
+      {
+        "city": "Mas-Saintes-Puelles",
+        "department": "11",
+        "houses": 2
+      },
+      {
+        "city": "Montréverd",
+        "department": "85",
+        "houses": 2
+      },
+      {
+        "city": "Rouans",
+        "department": "44",
+        "houses": 2
+      },
+      {
+        "city": "Saint-Mars-du-Désert",
+        "department": "44",
+        "houses": 2
+      },
+      {
+        "city": "Sainte-Cécile",
+        "department": "85",
+        "houses": 2
+      },
+      {
+        "city": "Asnières-sur-Seine",
+        "department": "92",
+        "houses": 1
+      },
+      {
+        "city": "Bouguenais",
+        "department": "44",
+        "houses": 1
+      },
+      {
+        "city": "Brains",
+        "department": "44",
+        "houses": 1
+      },
+      {
+        "city": "Béthisy-Saint-Martin",
+        "department": "60",
+        "houses": 1
+      },
+      {
+        "city": "Cholet",
+        "department": "49",
+        "houses": 1
+      },
+      {
+        "city": "Colombes",
+        "department": "92",
+        "houses": 1
+      },
+      {
+        "city": "Communay",
+        "department": "69",
+        "houses": 1
+      },
+      {
+        "city": "Couffé",
+        "department": "44",
+        "houses": 1
+      },
+      {
+        "city": "Couëron",
+        "department": "44",
+        "houses": 1
+      },
+      {
+        "city": "Cugand-la-Bernardière",
+        "department": "85",
+        "houses": 1
+      },
+      {
+        "city": "La Chapelle-Heulin",
+        "department": "44",
+        "houses": 1
+      },
+      {
+        "city": "La Couronne",
+        "department": "16",
+        "houses": 1
+      },
+      {
+        "city": "La Gaubretière",
+        "department": "85",
+        "houses": 1
+      },
+      {
+        "city": "Le Boupère",
+        "department": "85",
+        "houses": 1
+      },
+      {
+        "city": "Les Pineaux",
+        "department": "85",
+        "houses": 1
+      },
+      {
+        "city": "Ligné",
+        "department": "44",
+        "houses": 1
+      },
+      {
+        "city": "Mauléon",
+        "department": "79",
+        "houses": 1
+      },
+      {
+        "city": "Montournais",
+        "department": "85",
+        "houses": 1
+      },
+      {
+        "city": "Montrevault-sur-Èvre",
+        "department": "49",
+        "houses": 1
+      },
+      {
+        "city": "Mouchamps",
+        "department": "85",
+        "houses": 1
+      },
+      {
+        "city": "Mouilleron-Saint-Germain",
+        "department": "85",
+        "houses": 1
+      },
+      {
+        "city": "Niort",
+        "department": "79",
+        "houses": 1
+      },
+      {
+        "city": "Nuaillé",
+        "department": "49",
+        "houses": 1
+      },
+      {
+        "city": "Orvault",
+        "department": "44",
+        "houses": 1
+      },
+      {
+        "city": "Peyrens",
+        "department": "11",
+        "houses": 1
+      },
+      {
+        "city": "Pontchâteau",
+        "department": "44",
+        "houses": 1
+      },
+      {
+        "city": "Pornic",
+        "department": "44",
+        "houses": 1
+      },
+      {
+        "city": "Pouzauges",
+        "department": "85",
+        "houses": 1
+      },
+      {
+        "city": "Rochetrejoux",
+        "department": "85",
+        "houses": 1
+      },
+      {
+        "city": "Saffré",
+        "department": "44",
+        "houses": 1
+      },
+      {
+        "city": "Saint-André-Goule-d'Oie",
+        "department": "85",
+        "houses": 1
+      },
+      {
+        "city": "Saint-Hilaire-de-Riez",
+        "department": "85",
+        "houses": 1
+      },
+      {
+        "city": "Saint-Hilaire-le-Vouhis",
+        "department": "85",
+        "houses": 1
+      },
+      {
+        "city": "Saint-Léger-les-Vignes",
+        "department": "44",
+        "houses": 1
+      },
+      {
+        "city": "Saint-Martin-des-Tilleuls",
+        "department": "85",
+        "houses": 1
+      },
+      {
+        "city": "Saint-Mesmin",
+        "department": "85",
+        "houses": 1
+      },
+      {
+        "city": "Saint-Paul-en-Pareds",
+        "department": "85",
+        "houses": 1
+      },
+      {
+        "city": "Saint-Philbert-de-Grand-Lieu",
+        "department": "44",
+        "houses": 1
+      },
+      {
+        "city": "Sainte-Marie",
+        "department": "974",
+        "houses": 1
+      },
+      {
+        "city": "Salles",
+        "department": "33",
+        "houses": 1
+      },
+      {
+        "city": "Saumur",
+        "department": "49",
+        "houses": 1
+      },
+      {
+        "city": "Savenay",
+        "department": "44",
+        "houses": 1
+      },
+      {
+        "city": "Sucy-en-Brie",
+        "department": "94",
+        "houses": 1
+      },
+      {
+        "city": "Toulon",
+        "department": "83",
+        "houses": 1
+      },
+      {
+        "city": "Vallet",
+        "department": "44",
+        "houses": 1
+      },
+      {
+        "city": "Vieillevigne",
+        "department": "44",
+        "houses": 1
+      },
+      {
+        "city": "Villeurbanne",
+        "department": "69",
+        "houses": 1
+      },
+      {
+        "city": "Vélizy-Villacoublay",
+        "department": "78",
+        "houses": 1
+      }
+    ]
   },
   "daily": [
     {
@@ -164,13 +571,13 @@
     },
     {
       "date": "2026-10-30",
-      "added": 62,
-      "total": 403
+      "added": 61,
+      "total": 402
     },
     {
       "date": "2026-10-31",
-      "added": 47,
-      "total": 450
+      "added": 55,
+      "total": 457
     }
   ]
 }
