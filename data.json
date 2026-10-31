@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-31T14:00:01Z",
+  "generated_at": "2026-10-31T14:30:02Z",
   "dating": "updatedAt (approximation, Europe/Paris day)",
   "totals": {
-    "houses": 467,
-    "last_24h": 101,
-    "last_7d": 323,
-    "cities": 85,
-    "welcome": 361,
-    "do_not_disturb": 106
+    "houses": 470,
+    "last_24h": 106,
+    "last_7d": 327,
+    "cities": 84,
+    "welcome": 363,
+    "do_not_disturb": 107
   },
   "recap": {
-    "welcoming": 366,
-    "quiet": 107,
+    "welcoming": 368,
+    "quiet": 109,
     "towns": 86,
-    "decorated": 155,
-    "scary": 29,
+    "decorated": 158,
+    "scary": 30,
     "cities": [
       {
         "city": "Saint-Sébastien-sur-Loire",
@@ -24,7 +24,7 @@
       {
         "city": "Vertou",
         "department": "44",
-        "houses": 46
+        "houses": 48
       },
       {
         "city": "Fay-de-Bretagne",
@@ -34,7 +34,7 @@
       {
         "city": "Le Cellier",
         "department": "44",
-        "houses": 33
+        "houses": 34
       },
       {
         "city": "Saint-Herblain",
@@ -84,7 +84,7 @@
       {
         "city": "Verrières-le-Buisson",
         "department": "91",
-        "houses": 9
+        "houses": 10
       },
       {
         "city": "Bouaye",
@@ -551,58 +551,58 @@
     },
     {
       "date": "2026-10-21",
-      "added": 59,
-      "total": 105
+      "added": 58,
+      "total": 104
     },
     {
       "date": "2026-10-22",
       "added": 29,
-      "total": 134
+      "total": 133
     },
     {
       "date": "2026-10-23",
       "added": 5,
-      "total": 139
+      "total": 138
     },
     {
       "date": "2026-10-24",
       "added": 20,
-      "total": 159
+      "total": 158
     },
     {
       "date": "2026-10-25",
       "added": 55,
-      "total": 214
+      "total": 213
     },
     {
       "date": "2026-10-26",
       "added": 20,
-      "total": 234
+      "total": 233
     },
     {
       "date": "2026-10-27",
-      "added": 31,
-      "total": 265
+      "added": 30,
+      "total": 263
     },
     {
       "date": "2026-10-28",
-      "added": 44,
-      "total": 309
+      "added": 43,
+      "total": 306
     },
     {
       "date": "2026-10-29",
       "added": 30,
-      "total": 339
+      "total": 336
     },
     {
       "date": "2026-10-30",
       "added": 60,
-      "total": 399
+      "total": 396
     },
     {
       "date": "2026-10-31",
-      "added": 68,
-      "total": 467
+      "added": 74,
+      "total": 470
     }
   ]
 }
