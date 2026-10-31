@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-31T18:00:01Z",
+  "generated_at": "2026-10-31T18:30:01Z",
   "dating": "updatedAt (approximation, Europe/Paris day)",
   "totals": {
-    "houses": 532,
-    "last_24h": 188,
-    "last_7d": 396,
+    "houses": 534,
+    "last_24h": 189,
+    "last_7d": 397,
     "cities": 94,
-    "welcome": 414,
-    "do_not_disturb": 118
+    "welcome": 417,
+    "do_not_disturb": 117
   },
   "recap": {
-    "welcoming": 425,
-    "quiet": 125,
+    "welcoming": 430,
+    "quiet": 124,
     "towns": 100,
     "decorated": 189,
-    "scary": 35,
+    "scary": 36,
     "cities": [
       {
         "city": "Saint-Sébastien-sur-Loire",
@@ -29,7 +29,7 @@
       {
         "city": "Le Cellier",
         "department": "44",
-        "houses": 44
+        "houses": 45
       },
       {
         "city": "Fay-de-Bretagne",
@@ -54,7 +54,7 @@
       {
         "city": "Les Herbiers",
         "department": "85",
-        "houses": 27
+        "houses": 28
       },
       {
         "city": "La Haie-Fouassière",
@@ -79,7 +79,7 @@
       {
         "city": "La Montagne",
         "department": "44",
-        "houses": 14
+        "houses": 15
       },
       {
         "city": "Verrières-le-Buisson",
@@ -112,6 +112,11 @@
         "houses": 5
       },
       {
+        "city": "Les Brouzils",
+        "department": "85",
+        "houses": 5
+      },
+      {
         "city": "Mauges-sur-Loire",
         "department": "49",
         "houses": 5
@@ -119,11 +124,6 @@
       {
         "city": "Châtenay-Malabry",
         "department": "92",
-        "houses": 4
-      },
-      {
-        "city": "Les Brouzils",
-        "department": "85",
         "houses": 4
       },
       {
@@ -646,33 +646,33 @@
     },
     {
       "date": "2026-10-26",
-      "added": 19,
-      "total": 216
+      "added": 18,
+      "total": 215
     },
     {
       "date": "2026-10-27",
       "added": 28,
-      "total": 244
+      "total": 243
     },
     {
       "date": "2026-10-28",
-      "added": 40,
-      "total": 284
+      "added": 38,
+      "total": 281
     },
     {
       "date": "2026-10-29",
       "added": 29,
-      "total": 313
+      "total": 310
     },
     {
       "date": "2026-10-30",
       "added": 51,
-      "total": 364
+      "total": 361
     },
     {
       "date": "2026-10-31",
-      "added": 168,
-      "total": 532
+      "added": 173,
+      "total": 534
     }
   ]
 }
