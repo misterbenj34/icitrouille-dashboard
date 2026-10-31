@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-31T17:00:02Z",
+  "generated_at": "2026-10-31T17:30:01Z",
   "dating": "updatedAt (approximation, Europe/Paris day)",
   "totals": {
-    "houses": 510,
-    "last_24h": 159,
-    "last_7d": 373,
-    "cities": 92,
-    "welcome": 396,
-    "do_not_disturb": 114
+    "houses": 520,
+    "last_24h": 170,
+    "last_7d": 385,
+    "cities": 93,
+    "welcome": 405,
+    "do_not_disturb": 115
   },
   "recap": {
-    "welcoming": 403,
-    "quiet": 119,
-    "towns": 96,
-    "decorated": 183,
+    "welcoming": 413,
+    "quiet": 120,
+    "towns": 97,
+    "decorated": 185,
     "scary": 34,
     "cities": [
       {
         "city": "Saint-Sébastien-sur-Loire",
         "department": "44",
-        "houses": 52
+        "houses": 53
       },
       {
         "city": "Vertou",
         "department": "44",
-        "houses": 50
+        "houses": 51
       },
       {
         "city": "Le Cellier",
         "department": "44",
-        "houses": 41
+        "houses": 42
       },
       {
         "city": "Fay-de-Bretagne",
@@ -44,22 +44,22 @@
       {
         "city": "L'Herbergement",
         "department": "85",
-        "houses": 27
+        "houses": 28
       },
       {
         "city": "Les Herbiers",
         "department": "85",
-        "houses": 26
+        "houses": 27
       },
       {
         "city": "Montaigu-Vendée",
         "department": "85",
-        "houses": 26
+        "houses": 27
       },
       {
         "city": "La Haie-Fouassière",
         "department": "44",
-        "houses": 25
+        "houses": 26
       },
       {
         "city": "Saint-Jean-de-Boiseau",
@@ -77,14 +77,14 @@
         "houses": 15
       },
       {
-        "city": "Verrières-le-Buisson",
-        "department": "91",
+        "city": "La Montagne",
+        "department": "44",
         "houses": 14
       },
       {
-        "city": "La Montagne",
-        "department": "44",
-        "houses": 13
+        "city": "Verrières-le-Buisson",
+        "department": "91",
+        "houses": 14
       },
       {
         "city": "Bouaye",
@@ -134,6 +134,11 @@
       {
         "city": "Basse-Goulaine",
         "department": "44",
+        "houses": 3
+      },
+      {
+        "city": "Cholet",
+        "department": "49",
         "houses": 3
       },
       {
@@ -219,11 +224,6 @@
       {
         "city": "Béthisy-Saint-Martin",
         "department": "60",
-        "houses": 1
-      },
-      {
-        "city": "Cholet",
-        "department": "49",
         "houses": 1
       },
       {
@@ -495,6 +495,11 @@
         "city": "Vélizy-Villacoublay",
         "department": "78",
         "houses": 1
+      },
+      {
+        "city": "Écully",
+        "department": "69",
+        "houses": 1
       }
     ]
   },
@@ -596,63 +601,63 @@
     },
     {
       "date": "2026-10-20",
-      "added": 36,
-      "total": 45
+      "added": 35,
+      "total": 44
     },
     {
       "date": "2026-10-21",
-      "added": 50,
-      "total": 95
+      "added": 49,
+      "total": 93
     },
     {
       "date": "2026-10-22",
       "added": 29,
-      "total": 124
+      "total": 122
     },
     {
       "date": "2026-10-23",
       "added": 5,
-      "total": 129
+      "total": 127
     },
     {
       "date": "2026-10-24",
       "added": 20,
-      "total": 149
+      "total": 147
     },
     {
       "date": "2026-10-25",
       "added": 52,
-      "total": 201
+      "total": 199
     },
     {
       "date": "2026-10-26",
       "added": 20,
-      "total": 221
+      "total": 219
     },
     {
       "date": "2026-10-27",
       "added": 28,
-      "total": 249
+      "total": 247
     },
     {
       "date": "2026-10-28",
       "added": 41,
-      "total": 290
+      "total": 288
     },
     {
       "date": "2026-10-29",
       "added": 29,
-      "total": 319
+      "total": 317
     },
     {
       "date": "2026-10-30",
-      "added": 55,
-      "total": 374
+      "added": 54,
+      "total": 371
     },
     {
       "date": "2026-10-31",
-      "added": 136,
-      "total": 510
+      "added": 149,
+      "total": 520
     }
   ]
 }
