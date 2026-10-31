@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-31T16:30:01Z",
+  "generated_at": "2026-10-31T17:00:02Z",
   "dating": "updatedAt (approximation, Europe/Paris day)",
   "totals": {
-    "houses": 501,
-    "last_24h": 148,
-    "last_7d": 366,
-    "cities": 90,
-    "welcome": 388,
-    "do_not_disturb": 113
+    "houses": 510,
+    "last_24h": 159,
+    "last_7d": 373,
+    "cities": 92,
+    "welcome": 396,
+    "do_not_disturb": 114
   },
   "recap": {
-    "welcoming": 393,
-    "quiet": 117,
-    "towns": 94,
-    "decorated": 174,
-    "scary": 32,
+    "welcoming": 403,
+    "quiet": 119,
+    "towns": 96,
+    "decorated": 183,
+    "scary": 34,
     "cities": [
       {
         "city": "Saint-Sébastien-sur-Loire",
@@ -27,14 +27,14 @@
         "houses": 50
       },
       {
-        "city": "Fay-de-Bretagne",
-        "department": "44",
-        "houses": 39
-      },
-      {
         "city": "Le Cellier",
         "department": "44",
-        "houses": 38
+        "houses": 41
+      },
+      {
+        "city": "Fay-de-Bretagne",
+        "department": "44",
+        "houses": 40
       },
       {
         "city": "Saint-Herblain",
@@ -52,19 +52,24 @@
         "houses": 26
       },
       {
-        "city": "La Haie-Fouassière",
-        "department": "44",
-        "houses": 24
-      },
-      {
         "city": "Montaigu-Vendée",
         "department": "85",
-        "houses": 24
+        "houses": 26
+      },
+      {
+        "city": "La Haie-Fouassière",
+        "department": "44",
+        "houses": 25
       },
       {
         "city": "Saint-Jean-de-Boiseau",
         "department": "44",
-        "houses": 18
+        "houses": 19
+      },
+      {
+        "city": "Chaville",
+        "department": "92",
+        "houses": 16
       },
       {
         "city": "Chantonnay",
@@ -72,18 +77,13 @@
         "houses": 15
       },
       {
-        "city": "Chaville",
-        "department": "92",
-        "houses": 15
+        "city": "Verrières-le-Buisson",
+        "department": "91",
+        "houses": 14
       },
       {
         "city": "La Montagne",
         "department": "44",
-        "houses": 13
-      },
-      {
-        "city": "Verrières-le-Buisson",
-        "department": "91",
         "houses": 13
       },
       {
@@ -249,6 +249,11 @@
       {
         "city": "Cugand-la-Bernardière",
         "department": "85",
+        "houses": 1
+      },
+      {
+        "city": "Gétigné",
+        "department": "44",
         "houses": 1
       },
       {
@@ -447,6 +452,11 @@
         "houses": 1
       },
       {
+        "city": "Tassin-la-Demi-Lune",
+        "department": "69",
+        "houses": 1
+      },
+      {
         "city": "Toulon",
         "department": "83",
         "houses": 1
@@ -611,38 +621,38 @@
     },
     {
       "date": "2026-10-25",
-      "added": 53,
-      "total": 202
+      "added": 52,
+      "total": 201
     },
     {
       "date": "2026-10-26",
       "added": 20,
-      "total": 222
+      "total": 221
     },
     {
       "date": "2026-10-27",
-      "added": 29,
-      "total": 251
+      "added": 28,
+      "total": 249
     },
     {
       "date": "2026-10-28",
       "added": 41,
-      "total": 292
+      "total": 290
     },
     {
       "date": "2026-10-29",
-      "added": 30,
-      "total": 322
+      "added": 29,
+      "total": 319
     },
     {
       "date": "2026-10-30",
-      "added": 56,
-      "total": 378
+      "added": 55,
+      "total": 374
     },
     {
       "date": "2026-10-31",
-      "added": 123,
-      "total": 501
+      "added": 136,
+      "total": 510
     }
   ]
 }
