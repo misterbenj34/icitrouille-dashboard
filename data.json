@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-31T14:30:02Z",
+  "generated_at": "2026-10-31T15:00:01Z",
   "dating": "updatedAt (approximation, Europe/Paris day)",
   "totals": {
-    "houses": 470,
-    "last_24h": 106,
-    "last_7d": 327,
-    "cities": 84,
-    "welcome": 363,
-    "do_not_disturb": 107
+    "houses": 480,
+    "last_24h": 118,
+    "last_7d": 337,
+    "cities": 86,
+    "welcome": 372,
+    "do_not_disturb": 108
   },
   "recap": {
-    "welcoming": 368,
-    "quiet": 109,
-    "towns": 86,
-    "decorated": 158,
+    "welcoming": 377,
+    "quiet": 111,
+    "towns": 89,
+    "decorated": 161,
     "scary": 30,
     "cities": [
       {
@@ -24,17 +24,17 @@
       {
         "city": "Vertou",
         "department": "44",
-        "houses": 48
+        "houses": 49
+      },
+      {
+        "city": "Le Cellier",
+        "department": "44",
+        "houses": 37
       },
       {
         "city": "Fay-de-Bretagne",
         "department": "44",
         "houses": 36
-      },
-      {
-        "city": "Le Cellier",
-        "department": "44",
-        "houses": 34
       },
       {
         "city": "Saint-Herblain",
@@ -49,7 +49,7 @@
       {
         "city": "Les Herbiers",
         "department": "85",
-        "houses": 25
+        "houses": 26
       },
       {
         "city": "La Haie-Fouassière",
@@ -59,12 +59,12 @@
       {
         "city": "Montaigu-Vendée",
         "department": "85",
-        "houses": 22
+        "houses": 23
       },
       {
         "city": "Saint-Jean-de-Boiseau",
         "department": "44",
-        "houses": 17
+        "houses": 18
       },
       {
         "city": "Chantonnay",
@@ -74,7 +74,7 @@
       {
         "city": "Chaville",
         "department": "92",
-        "houses": 13
+        "houses": 14
       },
       {
         "city": "La Montagne",
@@ -257,6 +257,11 @@
         "houses": 1
       },
       {
+        "city": "La Madeleine",
+        "department": "59",
+        "houses": 1
+      },
+      {
         "city": "Le Boupère",
         "department": "85",
         "houses": 1
@@ -274,6 +279,11 @@
       {
         "city": "Mauléon",
         "department": "79",
+        "houses": 1
+      },
+      {
+        "city": "Mayenne",
+        "department": "53",
         "houses": 1
       },
       {
@@ -348,6 +358,11 @@
       },
       {
         "city": "Saint-André-Goule-d'Oie",
+        "department": "85",
+        "houses": 1
+      },
+      {
+        "city": "Saint-Fulgent",
         "department": "85",
         "houses": 1
       },
@@ -571,38 +586,38 @@
     },
     {
       "date": "2026-10-25",
-      "added": 55,
-      "total": 213
+      "added": 53,
+      "total": 211
     },
     {
       "date": "2026-10-26",
       "added": 20,
-      "total": 233
+      "total": 231
     },
     {
       "date": "2026-10-27",
       "added": 30,
-      "total": 263
+      "total": 261
     },
     {
       "date": "2026-10-28",
       "added": 43,
-      "total": 306
+      "total": 304
     },
     {
       "date": "2026-10-29",
       "added": 30,
-      "total": 336
+      "total": 334
     },
     {
       "date": "2026-10-30",
-      "added": 60,
-      "total": 396
+      "added": 59,
+      "total": 393
     },
     {
       "date": "2026-10-31",
-      "added": 74,
-      "total": 470
+      "added": 87,
+      "total": 480
     }
   ]
 }
