@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-01T00:00:01Z",
+  "generated_at": "2026-11-01T00:30:01Z",
   "dating": "updatedAt (approximation, Europe/Paris day)",
   "totals": {
-    "houses": 528,
-    "last_24h": 174,
-    "last_7d": 380,
+    "houses": 527,
+    "last_24h": 173,
+    "last_7d": 379,
     "cities": 92,
-    "welcome": 409,
+    "welcome": 408,
     "do_not_disturb": 119
   },
   "recap": {
-    "welcoming": 429,
-    "quiet": 131,
+    "welcoming": 428,
+    "quiet": 132,
     "towns": 101,
     "decorated": 191,
     "scary": 36,
@@ -676,13 +676,13 @@
     },
     {
       "date": "2026-10-31",
-      "added": 174,
-      "total": 528
+      "added": 173,
+      "total": 527
     },
     {
       "date": "2026-11-01",
       "added": 0,
-      "total": 528
+      "total": 527
     }
   ]
 }
